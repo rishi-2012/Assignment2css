@@ -1,0 +1,241 @@
+@import url(https://fonts.google.com/specimen/Lato);
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION */
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav ul a:hover {
+    color: white;
+}
+
+.creation {
+    display: grid;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5.1em;
+    height: 15em;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.nav ul li {
+    font-size: 20pt;
+    padding: 0.5em 2rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li:hover {
+    color: white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* HEADER */
+.header {
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background: url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3em;
+}
+
+#box1 {
+
+    background-color: rgb(48, 48, 48);
+
+    
+}
+
+#creation1 {
+    border-color: rgb(245, 245, 245);
+    box-shadow: 5px 10px #e7e7e7;
+}
+
+#box2 {
+    color: rgb(48, 48, 48);
+    background-color: rgb(245, 245, 245);
+}
+
+#creation2 {
+    border-color: rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+    box-shadow: 5px 10px #b8b8b8;
+}
+
+#box3 {
+    color: rgb(48, 48, 48);
+    background-color: rgb(245, 245, 245);
+}
+
+#creation3 {
+    border-color: rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+    box-shadow: 5px 10px #b8b8b8;
+}
+
+#box4 {
+    color: rgb(245, 245, 245);
+    background-color: rgb(15, 183, 249);
+}
+
+#creation4 {
+    border-color: rgb(245, 245, 245);
+    background-color: white;
+    box-shadow: 5px 10px #b8b8b8;
+}
+
+#box5 {
+    color: rgb(48, 48, 48);
+    background-color: rgb(245, 245, 245);
+}
+
+#creation5 {
+    border-color: white;
+    background-color: white;
+    box-shadow: 5px 10px #b8b8b8;
+}
+
+#box6 {
+    color: rgb(48, 48, 48);
+    background-color: rgb(245, 245, 245);
+}
+
+#creation6 {
+    border-color: white;
+    background-color: white;
+    box-shadow: 5px 10px #b8b8b8;
+}
+
+body div {
+
+    border: 1px solid black;
+}
+
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+   border: 1em white;
+
+}
+
+.Box h2,
+h3 {
+    font-family: 'Lato', cursive;
+}
+
+.mainDivContainer {
+    display: grid ;
+    grid-gap:10px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    border-color: white ;
+    padding: 0.5em;
+
+}
+
+[class^="Box"] {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60vh;
+    display: grid;
+    font-size: 1em;
+    padding: 30px;
+    max-width: 95vh;
+}
+
+.header p {
+    color: black;
+    font-size: 1.25rem;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+}
+
+.header button {
+    padding: 1em;
+    border: gray solid;
+    color: grey;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.header button:hover {
+    background: grey;
+    color: #fff;
+}
+
+
+#box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(199, 197, 197);
+    color: white;
+    padding-top: 0.4em;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+footer ul li {
+    font-size: 1em;
+    padding: 0.5em 1rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
